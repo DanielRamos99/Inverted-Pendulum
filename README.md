@@ -20,3 +20,9 @@ The controller and the observer were designed through feedback states using the 
 
 * Overshoot percentage (OS %) --> 0.5333 %
 * Settling Time (ts) --> 0.1108 s
+
+## How to run the programs
+
+### Steps
+
+1. Run the Matlab file ~~~ InvertedPendulum.m ~~~
