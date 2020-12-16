@@ -28,4 +28,8 @@ The controller and the observer were designed through feedback states using the 
 
 ### Steps
 
-1. Run the Matlab file `InvertedPendulum.m`
+1. Run the Matlab file `InvertedPendulum.m`. This program will load all the system variables as well as the controller gain.
+2. Run the Simulink file `SystemAnalysis.slx` in order to see the response of the system given an unit step input without the controller.
+3. Run the Simulink file `Controller.slx` to see the behavior of the system with the controller included.
+4. Run the Simulink file `Observer.slx` to see the result of the designed observer.
+5. Run the Simulink file `Observer.slx` to see an animation of the system. The model to make the animation was taken from [here](https://www.mathworks.com/help/control/ug/control-of-an-inverted-pendulum-on-a-cart.html) and later modified for project purposes. In the animation, there is an external force (disturbance) that causes the pendulum to go out of control and the control action to stabilize the pendulum can be clearly observed. In turn, this behavior can be observed through the response graphs of the system.
