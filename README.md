@@ -11,4 +11,12 @@ The controller and the observer were designed through feedback states using the 
 * Matlab 2017b or above
 * Simulink
 
-## Requiremts
+## Requiremts for the controller
+
+* Overshoot percentage (OS %) --> 0.5333 %
+* Rise Time (tr) --> 1.2 s
+
+## Requirements for the observer
+
+* Overshoot percentage (OS %) --> 0.5333 %
+* Settling Time (ts) --> 0.1108 s
